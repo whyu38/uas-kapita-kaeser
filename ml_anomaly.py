@@ -67,7 +67,7 @@ fleet = load_enterprise_data()
 
 # --- 4. SIDEBAR ---
 with st.sidebar:
-    st.image("C:\Web Programming\Kuliah\kaeser-project\kaeser-logo.png", width=200)
+    st.image("kaeser-logo.png", width=200)
     st.markdown("---")
     menu = st.radio("Enterprise Navigation", [
         "🌐 Fleet Management Control",
